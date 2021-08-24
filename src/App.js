@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 //Styles
-import "./app.css";
+import "./App.css";
 
 //Components
 import Home from "./pages/Home";
