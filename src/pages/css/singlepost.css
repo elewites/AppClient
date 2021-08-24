@@ -114,9 +114,7 @@ span {
 
 /*REPONSIVE CSS FOR SMALL SCREENS*/
 @media screen and (max-width: 500px) {
-  .App {
-    overflow-y: hidden;
-  }
+  
 
   .single-post-container {
     display: flex;
