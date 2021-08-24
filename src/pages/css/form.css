@@ -58,7 +58,11 @@ span {
   padding-left: 10px;
   align-items: center;
   margin-bottom: 5px;
-  color: #ffff;
+  color: white;
+}
+
+.span {
+  color: white;
 }
 
 /*RESPONSIVE CSS FOR SMALL SCREENS */
@@ -71,10 +75,18 @@ span {
     width: 250px;
     height: 35px;
   }
+
+  .span {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 330px) {
   .field {
     width: 200px;
+  }
+
+  .span {
+    font-size: 10px;
   }
 }

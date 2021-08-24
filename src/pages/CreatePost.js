@@ -52,7 +52,7 @@ function CreatePost() {
         >
           <Form className="form">
             <label>Title:</label>
-            <ErrorMessage name="title" component="span" />
+            <ErrorMessage name="title" component="span" className="span" />
             <Field
               className="field"
               autoComplete="off"
@@ -60,7 +60,7 @@ function CreatePost() {
               placeholder="title..."
             ></Field>
             <label>Content:</label>
-            <ErrorMessage name="content" component="span" />
+            <ErrorMessage name="content" component="span" className="span"/>
             <Field
               className="field"
               autoComplete="off"

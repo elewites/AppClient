@@ -43,7 +43,7 @@ function Registration() {
         >
           <Form className="form">
             <label>Username:</label>
-            <ErrorMessage name="username" component="span" />
+            <ErrorMessage name="username" component="span" className="span" />
             <Field
               className="field"
               autoComplete="off"
@@ -51,7 +51,7 @@ function Registration() {
               placeholder="username..."
             ></Field>
             <label>Password:</label>
-            <ErrorMessage name="password" component="span" />
+            <ErrorMessage name="password" component="span" className="span" />
             <Field
               className="field"
               autoComplete="off"
