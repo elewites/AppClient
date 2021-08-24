@@ -1,0 +1,19 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.home-post {
+  display: flex;
+  margin-top: 30px;
+}
+.home-post:hover {
+  display: flex;
+  margin-top: 30px;
+  background-color: #007cc7;
+  border-radius: 10px;
+  border: 5px solid #007cc7;
+}

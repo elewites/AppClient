@@ -1,0 +1,80 @@
+/* This is css is used across three components
+   CreatePost.js, Login.js, Registration.js    */
+
+.post-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.formik-container {
+  margin: 20px;
+  padding: 20px;
+  border: 5px solid #007cc7;
+
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 20px;
+  margin: 5px;
+  color: #ffff;
+}
+
+.field {
+  width: 400px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.create-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(226, 226, 226);
+  background-color: #202020;
+  font-size: 17px;
+  margin: 10px 0;
+  height: 50px;
+  padding: 20px;
+  border: 5px solid #007cc7;
+  border-radius: 12px;
+}
+
+.create-button:hover {
+  color: #202020;
+  font-weight: bold;
+  background-color: #007cc7;
+  border: 2px solid #007cc7;
+}
+
+span {
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  margin-bottom: 5px;
+  color: #ffff;
+}
+
+/*RESPONSIVE CSS FOR SMALL SCREENS */
+@media screen and (max-width: 500px) {
+  label {
+    font-size: 18px;
+  }
+
+  .field {
+    width: 250px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .field {
+    width: 200px;
+  }
+}

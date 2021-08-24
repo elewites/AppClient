@@ -1,0 +1,75 @@
+.singlePost {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  background-color: #007cc7;
+  border: 5px solid #007cc7;
+  /*
+  007cc7
+  #ffdf6c
+  */
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25%;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px 5px 0px 0px;
+  font-size: 30px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #202020;
+  height: 50%;
+  font-size: 20px;
+  margin: 0px 30px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.username {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 40px;
+  color: white;
+  font-weight: bold;
+  height: 25%;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+/* RESPONSIVE CSS FOR SMALL SCREENS */
+@media screen and (max-width: 500px) {
+  .singlePost {
+    width: 200px;
+    height: 200px;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+
+  .content {
+    width: 85%;
+    height: 85%;
+    font-size: 12px;
+  }
+
+  .username {
+    padding-right: 20px;
+    font-size: 12px;
+    width: 100%;
+  }
+}
