@@ -22,12 +22,14 @@ function SinglePost() {
 
   //get request for a post based on given id
   useEffect(() => {
-    axios.get(`http://localhost:3001/posts/${id}`).then((response) => {
-      setPost(response.data);
-    });
+    axios
+      .get(`https://social-app-api-0.herokuapp.com/posts/${id}`)
+      .then((response) => {
+        setPost(response.data);
+      });
 
     axios
-      .get(`http://localhost:3001/comments/getcomments/${id}`)
+      .get(`https://social-app-api-0.herokuapp.com/comments/getcomments/${id}`)
       .then((response) => {
         setComments(response.data);
       });
@@ -38,7 +40,7 @@ function SinglePost() {
   const submitComment = () => {
     axios
       .post(
-        `http://localhost:3001/comments/createcomment`,
+        `https://social-app-api-0.herokuapp.com/comments/createcomment`,
         {
           commentBody: newComment,
           postId: id,
@@ -69,7 +71,7 @@ function SinglePost() {
   const deleteComment = (id) => {
     axios
       .delete(
-        `http://localhost:3001/comments/deletecomment/${id}`,
+        `https://social-app-api-0.herokuapp.com/comments/deletecomment/${id}`,
         //sending web token through req headers
         {
           headers: { acessToken: localStorage.getItem("accessToken") },

@@ -29,7 +29,7 @@ function App() {
   the stored web token is valid*/
   useEffect(() => {
     axios
-      .get("http://localhost:3001/users/auth", {
+      .get("https://social-app-api-0.herokuapp.com/users/auth", {
         headers: {
           accessToken: localStorage.getItem("accessToken"),
         },
