@@ -19,4 +19,12 @@ In order for application to work properly the RESTful API must be running.
 
 Check out the [REST API](https://github.com/elewites/AppServer) for instructions on spinning up the server 
 
-<img width="944" alt="image" src="https://user-images.githubusercontent.com/69447634/236649471-cfeb3d89-4323-4c4e-9a43-8ffab741f2e1.png">
+Once the server is running properly the application should look like this: 
+
+<img width="931" alt="image" src="https://user-images.githubusercontent.com/69447634/236649554-c3c7d2d6-19cd-49c9-93ba-a38b0be1092d.png">
+
+If the server is not up, no posts will show up on the landing page and the user will not be able to login or register
+
+<img width="919" alt="image" src="https://user-images.githubusercontent.com/69447634/236649598-65637b15-dbe7-4528-9de5-627e0f959436.png">
+
+
