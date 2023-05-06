@@ -4,7 +4,7 @@ Frontend interface for social media application
 
 ## Purpose 
 
-1. Develop frontend interface for this social media [RESTful API](https://github.com/elewites/AppServer/blob/main/README.md) I developed.
+1. Develop frontend interface for a social media [RESTful API](https://github.com/elewites/AppServer/blob/main/README.md).
 2. Allow user to loging, register, make posts and comment on posts. 
 
 ## Installation
