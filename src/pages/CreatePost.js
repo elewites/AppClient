@@ -25,7 +25,7 @@ function CreatePost() {
   let history = useHistory();
   const onSubmit = (data) => {
     axios
-      .post("https://social-app-api-0.herokuapp.com/posts/createpost", data, {
+      .post("http://localhost:3001/posts/createpost", data, {
         headers: { accessToken: localStorage.getItem("accessToken") },
       })
       .then((response) => {
