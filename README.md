@@ -27,4 +27,9 @@ If the server is not up, no posts will show up on the landing page and the user 
 
 <img width="919" alt="image" src="https://user-images.githubusercontent.com/69447634/236649598-65637b15-dbe7-4528-9de5-627e0f959436.png">
 
+Clicking on each post allows user to comment
+
+<img width="914" alt="image" src="https://user-images.githubusercontent.com/69447634/236650108-c39377d9-aa31-4fcd-a477-63623e929068.png">
+
+
 
