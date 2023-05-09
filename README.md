@@ -2,7 +2,7 @@
 
 Frontend interface for social media application
 
-The app is currently deployed [here](silly-tesla-e6e8ce.netlify.app/).
+The app is currently deployed [here](https://silly-tesla-e6e8ce.netlify.app/).
 
 But you can also run the frontend and the server locally (see instructions below).
 
