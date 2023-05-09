@@ -17,16 +17,15 @@ Clone repository
 
 Once cloned run `npm install`
 
-Checkout into the `develop` branch. This is important if you will run the server locally as it updates the endpoints to 
-the local server. You have two options, either stay in `main` branch and run the frontend locally and the use the deployed server or run both locally (checkout the AppServer repo below for instructions on urnning server locally). 
+At this point you have two points
+1. Checkout into the `develop` branch. This is important if you will run the server locally as the `develop` branch has the endpoints that communicate with the local server. 
+- Check out the [REST API](https://github.com/elewites/AppServer) for instructions on spinning up the server locally
 
-Then run `npm start` to start the application
+2. Stay in `main` branch and run the frontend locally and the use the deployed server with the frontend running locally.
 
-In order for application to work properly on your local machine the RESTful API must be running. 
+After this, run `npm start` to start the application regardless of the option chosen above
 
-Check out the [REST API](https://github.com/elewites/AppServer) for instructions on spinning up the server locally
-
-Once the server is running properly the application should look like this: 
+If you have done everything correctly (server is running properly) the application should look like this: 
 
 <img width="931" alt="image" src="https://user-images.githubusercontent.com/69447634/236649554-c3c7d2d6-19cd-49c9-93ba-a38b0be1092d.png">
 
