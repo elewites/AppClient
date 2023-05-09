@@ -21,7 +21,8 @@ At this point you have two points
 1. Checkout into the `develop` branch. This is important if you will run the server locally as the `develop` branch has the endpoints that communicate with the local server. 
 - Check out the [REST API](https://github.com/elewites/AppServer) for instructions on spinning up the server locally
 
-2. Stay in `main` branch and run the frontend locally and the use the deployed server with the frontend running locally.
+2. Stay in `main` branch and run the this frontend application locally
+- With this option you will be using the deployed server with the frontend application running locally (make sure you stay in `main` branch)
 
 After this, run `npm start` to start the application regardless of the option chosen above
 
