@@ -2,6 +2,10 @@
 
 Frontend interface for social media application
 
+The app is currently deployed [here](silly-tesla-e6e8ce.netlify.app/).
+
+But you can also run the frontend and the server locally (see instructions below).
+
 ## Purpose 
 
 1. Develop frontend interface for a social media [RESTful API](https://github.com/elewites/AppServer/blob/main/README.md).
@@ -15,9 +19,9 @@ Once cloned run `npm install`
 
 Then run `npm start` to start the application
 
-In order for application to work properly the RESTful API must be running. 
+In order for application to work properly on your local machine the RESTful API must be running. 
 
-Check out the [REST API](https://github.com/elewites/AppServer) for instructions on spinning up the server 
+Check out the [REST API](https://github.com/elewites/AppServer) for instructions on spinning up the server locally
 
 Once the server is running properly the application should look like this: 
 
