@@ -28,7 +28,7 @@ function Login() {
   //post request to login and then store json web token in session storage
   const onSubmit = (data) => {
     axios
-      .post("http://localhost:3001/users/login", data)
+      .post("https://social-api.herokuapp.com/users/login", data)
       .then((response) => {
         if (response.data.error) {
           alert(response.data.error);

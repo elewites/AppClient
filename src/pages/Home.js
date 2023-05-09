@@ -15,7 +15,7 @@ function Home() {
 
   //get request for all posts from database
   useEffect(() => {
-    axios.get("http://localhost:3001/posts/getposts").then((response) => {
+    axios.get("https://social-api.herokuapp.com/posts/getposts").then((response) => {
       setPosts(response.data);
     });
   }, []);

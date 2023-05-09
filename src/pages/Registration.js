@@ -24,7 +24,7 @@ function Registration() {
   //post request to create a new user
   const onSubmit = (data) => {
     axios
-      .post("http://localhost:3001/users/createuser", data)
+      .post("https://social-api.herokuapp.com/users/createuser", data)
       .then((response) => {
         if (response.data !== "Username already exists") {
           alert(response.data);
