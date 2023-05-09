@@ -17,6 +17,9 @@ Clone repository
 
 Once cloned run `npm install`
 
+Checkout into the `develop` branch. This is important if you will run the server locally as it updates the endpoints to 
+the local server. You have two options, either stay in `main` branch and run the frontend locally and the use the deployed server or run both locally (checkout the AppServer repo below for instructions on urnning server locally). 
+
 Then run `npm start` to start the application
 
 In order for application to work properly on your local machine the RESTful API must be running. 
