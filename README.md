@@ -17,7 +17,7 @@ Clone repository
 
 Once cloned run `npm install`
 
-At this point you have two points
+At this point you have two options
 1. Checkout into the `develop` branch. This is important if you will run the server locally as the `develop` branch has the endpoints that communicate with the local server. 
 - Check out the [REST API](https://github.com/elewites/AppServer) for instructions on spinning up the server locally
 
